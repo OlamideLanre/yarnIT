@@ -1,0 +1,193 @@
+        @import url('Https://fonts.googleapis.com/css2?family=Poppins');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            scroll-behavior: smooth;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #F7F0E6;
+        }
+
+        /* HEADER STYLING */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* color: #F7F0E6; */
+
+        }
+
+        header nav ul {
+            margin: 0px;
+            margin-left: 55px;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 50px;
+            padding-right: 30%;
+
+        }
+
+        header nav ul a {
+            color: #774C20;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        header nav ul a:hover {
+            color: #969044;
+            text-decoration: underline;
+        }
+
+        header .siteName {
+            display: inline;
+            margin-left: 10px;
+            font-size: 30px;
+            margin-top: 10px;
+            padding-left: 10px;
+            color: #774C20;
+        }
+
+        /* Home Styling */
+        #mainHomeDiv {
+            margin-top: 50px;
+            margin-left: 15px;
+            float: left;
+        }
+
+        .introMessage {
+
+            color: #969044;
+            font-size: 35px;
+            line-height: 45px;
+        }
+
+        .imageDiv {
+            float: right;
+            margin-right: 50px;
+            size: 50px;
+            margin-top: 30px;
+        }
+
+        #mainHomeDiv button {
+            background-color: #3A3C16;
+            color: #F7F0E6;
+            margin-top: 15px;
+            padding: 10px 30px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        #mainHomeDiv button:hover {
+            background-color: #F7F0E6;
+            color: #3A3C16;
+            border: #3A3C16 solid 1px;
+            cursor: pointer;
+        }
+
+        /* ABOUT STYLING */
+        #About {
+            clear: both;
+            margin-top: 100px;
+            margin-left: 15px;
+        }
+
+        #About .mainAboutDiv .siteName {
+            display: inline;
+            /* margin-left: 5px; */
+            font-size: 25px;
+            margin-top: 10px;
+            color: #774C20;
+        }
+
+        #About .mainAboutDiv {
+            font-size: 20px;
+            padding-top: 40px;
+            padding-left: 10px;
+            text-align: center;
+            margin-right: 70px;
+        }
+
+        /* #Services{
+            clear: both;
+            margin-top: 100px;
+            margin-left: 15px;
+        } */
+        .box {
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .inner-box {
+            /* background-color: #6A6C54; */
+            width: 250px;
+            height: 150px;
+            /* border-radius: 5px; */
+            /* border: #F7F0E6 solid 1px; */
+            margin: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        .inner-box img {
+            width: 100%;
+            justify-content: space-evenly;
+        }
+
+        .box .inner-box p {
+            position: absolute;
+            color: #F7F0E6;
+            border: #3A3C16 dotted 2px;
+            font-size: 30px;
+            letter-spacing: 2px;
+            font-weight: bolder;
+            left: 50%;
+            top: 75%;
+            transform: translate(-50%, -50%);
+        }
+
+        .JoinBtn {
+            background-color: #F7F0E6;
+            color: #3A3C16;
+            border: #3A3C16 solid 1px;
+            margin-top: 15px;
+            padding: 10px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .JoinBtn:hover {
+            background-color: #3A3C16;
+            color: #F7F0E6;
+        }
+
+        .inner-box span {
+            display: block;
+            font-size: 15px;
+            letter-spacing: 2px;
+            color: #774C20;
+        }
+
+        .mainFooterDiv {
+            background-color: #3A3C16;
+            position: relative;
+            clear: both;
+            width: 100%;
+            height: auto;
+            float: left;
+            margin-top: 200px;
+        }
+
+        .mainFooterDiv .left {
+            font-size: 25px;
+            margin-top: 10px;
+            color: #F7F0E6;
+            display: block;
+
+        }
