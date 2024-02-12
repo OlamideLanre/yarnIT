@@ -176,18 +176,43 @@
 
         .mainFooterDiv {
             background-color: #3A3C16;
-            position: relative;
+            display: flex;
+            margin-top: 250px;
+            justify-content: space-between;
+            height: 170px;
+            /* position: absolute;
             clear: both;
-            width: 100%;
-            height: auto;
-            float: left;
-            margin-top: 200px;
+            width: 100%; */
         }
 
         .mainFooterDiv .left {
             font-size: 25px;
             margin-top: 10px;
-            color: #F7F0E6;
-            display: block;
+            color: #F7F0E6;            
+            width: 200px;
+            margin-left: 20px;
 
         }
+        .mainFooterDiv .right{
+            float: right;
+            width: 200px;
+            margin-top: 15px;
+        }
+
+        .mainFooterDiv .right div ul a{
+            font-size: 10px;
+            margin-top: 10px;
+            color: #F7F0E6;
+        }
+
+        .end-footer-div ul a{
+            text-decoration: none;
+            margin-left: 10px;
+        }
+/*         
+        footer{
+            position: absolute;
+            clear: both;
+            width: 100%;
+        } */
+
